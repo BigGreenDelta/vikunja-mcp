@@ -2,7 +2,7 @@
   "mcpServers": {
     "tracker": {
       "command": "uvx",
-      "args": ["--refresh-package", "vikunja-mcp", "--from", "git+https://github.com/ufna/vikunja-mcp@stable", "vikunja-mcp"]
+      "args": ["--refresh-package", "vikunja-mcp", "--from", "git+https://github.com/BigGreenDelta/vikunja-mcp@stable", "vikunja-mcp"]
     }
   }
 }

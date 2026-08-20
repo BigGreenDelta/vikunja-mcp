@@ -1,7 +1,8 @@
 [tracker]
-url = "https://tracker.zz.hgdev.com"
-project_id = 10
+url = "http://bgd-ws-01:3456"
+project_id = 4
 project = "vikunja-mcp"
+language = "en"
 wip_limit = 3   # parallel drain: three per-task agents at a time, each in its own worktree
                 # (vikunja-mcp workspace). The cost of a wider limit is integration, not
                 # compute: every finished task pushes to main with fetch+rebase+re-verify,
